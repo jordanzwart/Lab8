@@ -38,8 +38,7 @@ public class BattingStats {
 				// selection of lower than 0 or bigger
 				// than 4 is an incorrect input for base hits
 				while ((storeAtBat[i] < 0 || storeAtBat[i] > 4)) {
-					System.out
-							.println("Not a valid result for at-bat. Result must be between 0-4");
+					System.out.println("Not a valid result for at-bat. Result must be between 0-4");
 					System.out.println("Results for at-bat " + (i + 1) + ":");
 					storeAtBat[i] = scan.nextInt();
 				}
@@ -90,7 +89,6 @@ public class BattingStats {
 	public static BigDecimal avg(int hits, int atBats) {
 		double average = (double) hits / (double) atBats;
 		BigDecimal b = new BigDecimal(average);
-
 		return b.setScale(3, BigDecimal.ROUND_HALF_UP);
 	}
 
