@@ -19,7 +19,7 @@ public class BattingStats {
 
 		System.out.println("Welcome to Batting Average Calculator!");
 		while (letter.equalsIgnoreCase("y")) {
-			System.out.println("Enter number of at bat: ");
+			System.out.println("Enter number of at bats: ");
 			// user enters how many at bats they want
 			int atBats = scan.nextInt();
 
