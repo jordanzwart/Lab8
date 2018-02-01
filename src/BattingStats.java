@@ -23,8 +23,7 @@ public class BattingStats {
 			// user enters how many at bats they want
 			int atBats = scan.nextInt();
 
-			System.out
-					.println("0 = out, 1=single, 2=double, 3=triple, 4=home run");
+			System.out.println("0 = out, 1=single, 2=double, 3=triple, 4=home run");
 
 			// the empty array now becomes how many at bats the user has inputed
 			storeAtBat = new int[atBats];
